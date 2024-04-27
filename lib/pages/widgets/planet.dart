@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cube/flutter_cube.dart';
 
 class Planet extends StatefulWidget {
-  Planet({Key? key, required this.interactive}) : super(key: key);
+  Planet({super.key, required this.interactive});
 
   final bool interactive;
 

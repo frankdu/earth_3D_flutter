@@ -5,8 +5,6 @@ import 'package:neon/neon.dart';
 import '../widgets/planet.dart';
 
 class PlanetPage extends StatefulWidget {
-  const PlanetPage({Key? key}) : super(key: key);
-
   @override
   State<PlanetPage> createState() => _PlanetPageState();
 }

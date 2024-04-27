@@ -3,8 +3,6 @@ import 'package:line_icons/line_icons.dart';
 import 'package:space_3d/pages/planet/planet_page.dart';
 
 class OnboardingPage extends StatelessWidget {
-  const OnboardingPage({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
