@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:neon/neon.dart';
@@ -55,12 +54,12 @@ class _PlanetPageState extends State<PlanetPage> {
                     children: [
                       Text(
                         'Bem vindo',
-                        style: Theme.of(context).textTheme.headline6!.copyWith(
+                        style: Theme.of(context).textTheme.titleLarge!.copyWith(
                             color: Colors.white, fontWeight: FontWeight.bold),
                       ),
                       Text(
                         'Aspirante a Triuplante',
-                        style: Theme.of(context).textTheme.subtitle1!.copyWith(
+                        style: Theme.of(context).textTheme.titleMedium!.copyWith(
                             color: Colors.white, fontWeight: FontWeight.w100),
                       ),
                     ],
@@ -92,7 +91,7 @@ class _PlanetPageState extends State<PlanetPage> {
                   children: [
                     Text(
                       'TERRA',
-                      style: Theme.of(context).textTheme.headline2!.copyWith(
+                      style: Theme.of(context).textTheme.displayMedium!.copyWith(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
                           ),

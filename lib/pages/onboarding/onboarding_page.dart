@@ -36,17 +36,17 @@ class OnboardingPage extends StatelessWidget {
                     'EXPLORE',
                     style: Theme.of(context)
                         .textTheme
-                        .headline2!
+                        .displayMedium!
                         .copyWith(color: Colors.white),
                   ),
                   Text(
                     'NOSSO',
-                    style: Theme.of(context).textTheme.headline2!.copyWith(
+                    style: Theme.of(context).textTheme.displayMedium!.copyWith(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     'PLANETA',
-                    style: Theme.of(context).textTheme.headline2!.copyWith(
+                    style: Theme.of(context).textTheme.displayMedium!.copyWith(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                   Icon(
