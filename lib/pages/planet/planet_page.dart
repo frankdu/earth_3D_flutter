@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:neon/neon.dart';
 
 import '../widgets/planet.dart';
 
@@ -96,12 +97,13 @@ class _PlanetPageState extends State<PlanetPage> {
                             fontWeight: FontWeight.w900,
                           ),
                     ),
-                    Text(
-                      'Toque para interagir',
-                      style: Theme.of(context)
-                          .textTheme
-                          .subtitle1!
-                          .copyWith(color: Colors.white),
+                    Neon(
+                      text: 'Wonderful Earth',
+                      color: Colors.green,
+                      fontSize: 14,
+                      font: NeonFont.Membra,
+                      flickeringText: true,
+                      flickeringLetters: [0, 2, 4, 6],
                     ),
                   ]),
             ),
@@ -121,11 +123,11 @@ class _PlanetPageState extends State<PlanetPage> {
                 child: !isInteracting
                     ? Planet(
                         key: Key('Planet1'),
-                        interative: false,
+                        interactive: false,
                       )
                     : Planet(
                         key: Key('Planet2'),
-                        interative: true,
+                        interactive: true,
                       ),
               ),
             ),
